@@ -1,2 +1,1 @@
-# smyslova.github.io
-SMYSLOVA
+# smyslova
