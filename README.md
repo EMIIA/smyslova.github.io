@@ -1,1 +1,2 @@
-# smyslova
+# smyslova.hithub.io
+Саша Смыслова
