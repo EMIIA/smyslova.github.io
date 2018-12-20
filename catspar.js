@@ -242,7 +242,7 @@ lib.ssMetadata = [
 
 
 
-(lib.фон = function() {
+(lib.фонскр = function() {
 	this.spriteSheet = ss["catspar_atlas_"];
 	this.gotoAndStop(33);
 }).prototype = p = new cjs.Sprite();
@@ -1159,7 +1159,7 @@ p.nominalBounds = new cjs.Rectangle(-513,-369,181,243);
 	this.timeline.addTween(cjs.Tween.get(this.instance_22).wait(265).to({regY:63.8,rotation:27.4,x:229.5,startPosition:21},0).to({rotation:16.8,x:229.3,y:-22,startPosition:3},14).to({regX:-51.6,regY:64.2,rotation:4.2,x:248.6,y:51.6,startPosition:13},22).to({rotation:-3.5,x:268.3,y:87.9,startPosition:19},11).to({regX:-51.8,rotation:-14,x:298.5,y:129.4,startPosition:8},17).to({regX:-51.7,rotation:-23.3,x:340.6,y:169.8,startPosition:20},9).to({regX:-51.8,rotation:-26.3,x:375.1,y:193.3,startPosition:8},13).wait(11));
 
 	// фон
-	this.instance_23 = new lib.фон();
+	this.instance_23 = new lib.фонскр();
 	this.instance_23.parent = this;
 	this.instance_23.setTransform(0,0,0.296,0.296);
 
