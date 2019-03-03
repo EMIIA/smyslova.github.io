@@ -1,2 +1,2 @@
-# smyslova.hithub.io
+# smyslova.github.io
 Саша Смыслова
