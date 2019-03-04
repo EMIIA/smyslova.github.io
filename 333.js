@@ -15,24 +15,24 @@ lib.ssMetadata = [];
 
 	// Слой_1
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f("#4A99D9").s().p("AgNApIAAgCIAHgBIACgDIABgJIAAgpIgBgMIgBgDIgDAAIgGABIgBgBIATgKIACAAIAABCIAAAJIACADIAIABIAAACg");
-	this.shape.setTransform(24.5,25.2);
+	this.shape.graphics.f("#4A99D9").s().p("AAXB3IAAjPIgTAXIgRAVIgjAAIA9hKIAlAAIAADtg");
+	this.shape.setTransform(23.1,25.9);
 	this.shape._off = true;
 
 	this.timeline.addTween(cjs.Tween.get(this.shape).wait(3).to({_off:false},0).to({_off:true},1).wait(6));
 
 	// Слой_2
 	this.shape_1 = new cjs.Shape();
-	this.shape_1.graphics.f("#4A99D9").s().p("AgZApIAAgCQAVgUAHgMQAIgLAAgJQAAgIgEgFQgFgEgFgBQgGABgFADQgEADgDAHIgCAAQACgLAGgGQAGgFAJgBQAIAAAHAHQAGAGAAAIQAAAGgCAHQgFAIgJALIgSATIAUAAIAJgBIAFgBIADgFIACAAIgFAQg");
-	this.shape_1.setTransform(24.4,25.2);
+	this.shape_1.graphics.f("#4A99D9").s().p("Ah3B3IAAhZQAAgRAMgLQALgLARAAICfAAQAFAAAEgEQAEgDgBgGIAAg4QABgFgEgEQgEgDgFAAIifAAQgGAAgDADQgEAEAAAFIAAAJIgbAAIAAgJQAAgQAMgMQALgMARAAICfAAQARAAALAMQAMAMAAAQIAAA4QAAAQgMALQgLAMgRAAIifAAQgGAAgDAEQgEADAAAGIAAAxQAAAGAEADQADAEAGAAIDHAAIAAAbg");
+	this.shape_1.setTransform(24.7,26);
 	this.shape_1._off = true;
 
 	this.timeline.addTween(cjs.Tween.get(this.shape_1).wait(6).to({_off:false},0).to({_off:true},1).wait(3));
 
 	// Слой_3
 	this.shape_2 = new cjs.Shape();
-	this.shape_2.graphics.f("#4A99D9").s().p("AgTAnQgCgCgBgCIACgDIADgBIADAAIAEACIAGACIAEABQAFAAAFgFQAEgEAAgHQAAgEgCgFIgEgFIgGgEQgEgCgEAAIgDAAIAAAAQAGgBADgDQAEgDADgDQACgEAAgFQAAgGgEgEQgEgDgEAAQgJAAgHAJIgCgBQAEgIAFgEQAFgEAHAAQAKAAAEAGQAEAEABAGQAAAIgMAKQAIADAEAEQADAFAAAHQAAALgGAHQgJAKgPAAQgIAAgDgCg");
-	this.shape_2.setTransform(24.3,25.3);
+	this.shape_2.graphics.f("#4A99D9").s().p("AhPB3QgRAAgLgMQgMgMAAgQIAAgGIAbAAIAAAGQAAAGAEADQAEAEAFAAICfAAQAFAAAEgEQAEgDAAgGIAAg3QAAgGgEgDQgEgEgFAAIiaAAIAAgaICPAAQAGAAADgEQAEgDAAgGIAAgyQAAgFgEgEQgDgDgGAAIiUAAQgFAAgEADQgEAEAAAFIAAAJIgbAAIAAgJQAAgRAMgLQALgMARAAICUAAQARAAAMAMQALALAAARIAAAyQAAAJgEAJIACAFQANAMAAARIAAA3QAAAQgMAMQgLAMgRAAg");
+	this.shape_2.setTransform(24.7,26.1);
 	this.shape_2._off = true;
 
 	this.timeline.addTween(cjs.Tween.get(this.shape_2).wait(9).to({_off:false},0).wait(1));
