@@ -15,24 +15,24 @@ lib.ssMetadata = [];
 
 	// Слой_1
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f("#4A99D9").s().p("AgNApIAAgCIAHgCIACgCIABgJIAAgqIgBgLIgBgCIgDgBIgGACIgBgCIATgJIACAAIAABBIAAAJIACACIAIACIAAACg");
-	this.shape.setTransform(25.6,23.2);
+	this.shape.graphics.f("#4A99D9").s().p("AgNApIAAgCIAHgBIACgDIABgJIAAgpIgBgMIgBgDIgDAAIgGABIgBgBIATgKIACAAIAABCIAAAJIACADIAIABIAAACg");
+	this.shape.setTransform(24.5,25.2);
 	this.shape._off = true;
 
 	this.timeline.addTween(cjs.Tween.get(this.shape).wait(3).to({_off:false},0).to({_off:true},1).wait(6));
 
 	// Слой_2
 	this.shape_1 = new cjs.Shape();
-	this.shape_1.graphics.f("#4A99D9").s().p("AgZApIAAgCQAVgUAHgMQAIgLAAgJQAAgIgEgFQgFgFgFABQgGgBgFAEQgEADgDAHIgCAAQACgLAGgGQAGgGAJABQAIAAAHAFQAGAHAAAIQAAAHgCAFQgFAJgJALIgSATIAUAAIAJgBIAFgBIADgFIACAAIgFAQg");
-	this.shape_1.setTransform(25.5,23.2);
+	this.shape_1.graphics.f("#4A99D9").s().p("AgZApIAAgCQAVgUAHgMQAIgLAAgJQAAgIgEgFQgFgEgFgBQgGABgFADQgEADgDAHIgCAAQACgLAGgGQAGgFAJgBQAIAAAHAHQAGAGAAAIQAAAGgCAHQgFAIgJALIgSATIAUAAIAJgBIAFgBIADgFIACAAIgFAQg");
+	this.shape_1.setTransform(24.4,25.2);
 	this.shape_1._off = true;
 
 	this.timeline.addTween(cjs.Tween.get(this.shape_1).wait(6).to({_off:false},0).to({_off:true},1).wait(3));
 
 	// Слой_3
 	this.shape_2 = new cjs.Shape();
-	this.shape_2.graphics.f("#4A99D9").s().p("AgSAnQgEgCAAgCIACgDIADgBIADAAIAFACIAEACIAFABQAFAAAFgFQAEgEAAgHQAAgEgCgFIgDgFIgHgEQgEgCgEAAIgCAAIAAAAQAFgBADgDQAFgDACgDQACgEAAgFQAAgGgEgEQgDgDgGAAQgIAAgGAJIgDgBQAEgIAFgEQAGgEAGAAQAKAAAEAGQAFAEAAAGQgBAIgKAKQAHADAEAEQAEAFgBAHQAAALgGAHQgJAKgPAAQgIAAgCgCg");
-	this.shape_2.setTransform(25.4,23.3);
+	this.shape_2.graphics.f("#4A99D9").s().p("AgTAnQgCgCgBgCIACgDIADgBIADAAIAEACIAGACIAEABQAFAAAFgFQAEgEAAgHQAAgEgCgFIgEgFIgGgEQgEgCgEAAIgDAAIAAAAQAGgBADgDQAEgDADgDQACgEAAgFQAAgGgEgEQgEgDgEAAQgJAAgHAJIgCgBQAEgIAFgEQAFgEAHAAQAKAAAEAGQAEAEABAGQAAAIgMAKQAIADAEAEQADAFAAAHQAAALgGAHQgJAKgPAAQgIAAgDgCg");
+	this.shape_2.setTransform(24.3,25.3);
 	this.shape_2._off = true;
 
 	this.timeline.addTween(cjs.Tween.get(this.shape_2).wait(9).to({_off:false},0).wait(1));
